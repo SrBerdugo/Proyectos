@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="..//Html Sena/Recursos/icono.jpg"
+    />
+    <title>Proyecto HTML Sena</title>
+  </head>
+  <body>
+    <header>
+      <div class="titulo">
+        <!--la imagen para el el fondo de titulo-->
+        <img src="../Html Sena/Recursos/imagen 1.jpg" width="1080px" />
+        <h1>APRENDIENDO CON BERDUGO</h1>
+      </div>
+
+      <!--Listado para menu y lista desplegable-->
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li>
+            <a href="#">Trabajo de fotografias</a>
+            <ul>
+              <li><a href="#">Bodas</a></li>
+              <li><a href="$">Graduaciones</a></li>
+              <li><a href="%">social</a></li>
+            </ul>
+          </li>
+          <li><a href="#">ideas creativas</a></li>
+          <li><a href="#">quienes somos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contenido">
+        <div id="imagen1">
+          <img
+            src="../Html Sena/Recursos/imagen 2.jpg"
+            alt="Biblioteca"
+            width="1280px"
+          />
+        </div>
+        <div id="parrafo">
+          <p>
+            La lectura es el proceso de interpretar y comprender el significado
+            de un texto escrito. Implica decodificar símbolos gráficos, como
+            letras y palabras, para darles sentido y extraer información o
+            conocimiento del texto. La lectura puede ser tanto una actividad
+            práctica como una experiencia enriquecedora, y desempeña un papel
+            crucial en la adquisición de conocimientos, la comunicación y el
+            desarrollo personal.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Información de los mejores escritores</h2>
+        <div id="tabla">
+          <table border="1">
+            <tr>
+              <td colspan="3">3 camar mas importates</td>
+            </tr>
+            <tr>
+              <th>Descripcion</th>
+              <th>Modelo</th>
+              <th>año de Fabricacion</th>
+            </tr>
+            <tr>
+              <td>Canon EOS 5D Mark IV</td>
+              <td>DSLR</td>
+              <td>2016</td>
+            </tr>
+
+            <tr>
+              <td>Nikon D850: La Nikon D85</td>
+              <td>DSLR</td>
+              <td>2017</td>
+            </tr>
+            <tr>
+              <td>Sony Alpha a7 III</td>
+              <td>La Sony Alpha a7 III</td>
+              <td>2018</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h2>Contenido Visual</h2>
+        <div id="video">
+          <video autoplay controls>
+            <source
+              src="../Html Sena/Recursos/ninja.mp4"
+              autoplay
+              type="video/mp4"
+            />
+            Tu navegador no admite este video.
+          </video>
+          <p>
+            La cultura de la lectura conlleva innumerables ventajas, desde la
+            expansión del conocimiento y la mejora del vocabulario hasta el
+            desarrollo del pensamiento crítico, la estimulación mental y la
+            reducción del estrés; promueve la empatía, mejora la escritura,
+            expande horizontes y brinda entretenimiento y disfrute; además,
+            fortalece la concentración, la disciplina y el acceso a
+            oportunidades educativas y profesionales, convirtiéndose en una
+            inversión invaluable en el crecimiento personal y la calidad de vida
+            a lo largo de toda la existencia. Consulta más contenido
+            <a href="#">aquí</a>.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!--pie de pagina-->
+    <footer>
+      <div id="form">
+        <h3>Dejanos tu Informacion</h3>
+        <form action="procesar_formulario.php" method="post">
+          <fieldset>
+            <legend>Información de Contacto</legend>
+            <div>
+              <label for="nombre">Nombre:</label>
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                required
+                placeholder="Nombre y Apellidos"
+              />
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Ingresa tu correo electrónico"
+              />
+            </div>
+          </fieldset>
+          <input type="submit" value="Enviar" />
+        </form>
+      </div>
+      <p>
+        Síguenos en Instagram, <a href="#">@dannaoficial</a> | Creado por &copy;
+        Danna Bastidas
+      </p>
+    </footer>
+  </body>
+</html>

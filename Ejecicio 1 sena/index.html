@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercio del sena</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="cabecera">
+      <div id="tittle">
+        <!--COLOCAR Link del video para el fondo-->
+        <h1>EJERCICIO DE SENA PAGINA HTML</h1>
+      </div>
+
+      <!--Inicio de menu-->
+      <div class="menu">
+        <nav>
+          <ul>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Diseños</a></li>
+            <li><a href="#">fotografia</a></li>
+            <li><a href="#">Temas</a></li>
+            <li><a href="#">Sobre Nosotro</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--Fin de menu-->
+    <main class="seccion_main">
+      <h2>Nuestra Historia</h2>
+
+      <!--inicio de la caja de loggin-->
+      <aside class="lateral">
+        <h3>Login</h3>
+        <div id="login">
+          <form action="enviar_formulario.php">
+            <label for="correo"> Correo electronico </label>
+            <input
+              idtype="text"
+              id="correo"
+              placeholder=" correo electronico"
+              required
+            />
+
+            <label for="contraseña"> Contraseña</label>
+            <input
+              type="password"
+              id="contraseña"
+              required
+              placeholder="Contraseña"
+            />
+
+            <button value="Enviar" type="button">Enviar</button>
+
+            <a href="#"> ¿Olvidates tu contraseña?</a>
+            <a href="#"> Registrate</a>
+          </form>
+        </div>
+      </aside>
+
+      <!--Fin de la caja de loggin-->
+
+      <section class="multimedia">
+        <img
+          src="../Ejecicio sena/recursos/noche selva.jpg"
+          alt="elefante en la selva"
+          name="elefante"
+        />
+      </section>
+      <article id="parrafo">
+        <p>
+          Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+          archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de
+          las industrias desde el año 1500, cuando un impresor (N. del T.
+          persona que se dedica a la imprenta) desconocido usó una galería de
+          textos y los mezcló de tal manera que logró hacer un libro de textos
+          especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como
+          texto de relleno en documentos electrónicos, quedando esencialmente
+          igual al original. Fue popularizado en los 60s con la creación de las
+          hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más
+          recientemente con software de autoedición, como por ejemplo Aldus
+          PageMaker, el cual incluye versiones de Lorem Ipsum.
+        </p>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <p>
+        para mas informacion siguenos en Instagram <a href="#"> Sr_Berdugo</a>
+      </p>
+    </footer>
+  </body>
+</html>
